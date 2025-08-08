@@ -51,7 +51,7 @@ Put your agents inside the `scripts/agents/SURNAME` folder, then import them in 
 
 The agent imports are automatic - no need to modify the testing scripts.
 
-## The wannabeMohex Agent
+# The wannabeMohex Agent
 
 The **wannabeMohex** agent is a sophisticated MCTS implementation that incorporates several advanced techniques:
 
@@ -115,25 +115,6 @@ The agent uses several optimizations:
 - **Virtual Bridge Detection**: Recognizes patterns like:
   - Direct bridges (distance-2 connections with empty intermediates)
   - Complex bridge formations
-
-## Performance
-
-The wannabeMohex agent demonstrates strong performance through:
-- Sophisticated position evaluation
-- Efficient search algorithms
-- Advanced Hex-specific heuristics
-- Time-optimal decision making
-
-## Development Notes
-
-- Agent name: `wannabeMohex`
-- Student: Götz
-- Student ID: 35725
-- Implementation language: Python with NumPy
-
-## Bugs and Issues
-
-Please report any bugs or issues with the engine. Pull requests to add tests or fix bugs are welcome.
 
 ---
 
